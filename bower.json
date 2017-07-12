@@ -1,6 +1,6 @@
 {
   "name": "px-moment-imports",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": [
     "px-moment-imports.html"
   ],
@@ -26,5 +26,8 @@
   ],
   "dependencies": {
     "pxmoment-timezone": "moment-timezone#~0.5.3"
+  },
+  "resolutions": {
+    "webcomponentsjs": "^0.7.24"
   }
 }
