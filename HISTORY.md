@@ -1,3 +1,7 @@
+v1.0.2
+==================
+* removing unnessary files
+
 v1.0.1
 ==================
 * Ensure we don't have double slash in locale url
