@@ -1,3 +1,7 @@
+v1.1.0
+==================
+* Hybridize component
+
 v1.0.2
 ==================
 * removing unnessary files
