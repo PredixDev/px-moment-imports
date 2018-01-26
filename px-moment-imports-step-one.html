@@ -1,14 +1,14 @@
 <script>
 
-  if(typeof Px === 'undefined') {
-    Px = {};
+  if(typeof window.Px === 'undefined') {
+    window.Px = {};
   }
 
   //if someone loaded moment already keep a ref to
   //it so we can restore it after having loaded our version
-  if(typeof moment !== 'undefined' && !Px.moment) {
-    Px.oldMoment = moment;
-    moment = {};
+  if(typeof window.moment !== 'undefined' && !window.Px.moment) {
+    window.Px.oldMoment = window.moment;
+    window.moment = {};
   }
 
 </script>

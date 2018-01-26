@@ -3,11 +3,11 @@
 <script>
 
   //our version of moment now loaded, save it
-  Px.moment = moment;
+  window.Px.moment = window.moment;
 
   //and restore other version if needed
-  if(typeof Px.oldMoment !== 'undefined') {
-    moment = Px.oldMoment;
+  if(typeof window.Px.oldMoment !== 'undefined') {
+    window.moment = window.Px.oldMoment;
   }
 
   //provide functions for localizing moments
