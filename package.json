@@ -1,20 +1,31 @@
 {
-  "name": "px-moment-imports",
-  "author": "General Electric",
   "description": "A Px component",
-  "version": "1.1.0",
-  "private": true,
-  "extName": null,
   "repository": {
     "type": "git",
     "url": "https://github.com/PredixDev/px-moment-imports.git"
   },
   "homepage": "https://www.predix-ui.com/",
+  "name": "px-moment-imports",
+  "author": "General Electric",
+  "version": "1.1.0",
+  "extName": null,
   "devDependencies": {
     "node-sass-import-once": "^1.2.0",
     "stream-combiner2": "^1.1.1",
     "yargs": "^6.0.0",
     "polymer-cli": "^1.5.7"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "resolutions": {
+    "inherits": "2.0.3",
+    "samsam": "1.1.3",
+    "supports-color": "3.1.2",
+    "type-detect": "1.0.0",
+    "webcomponentsjs": "^1.0.0"
+  },
+  "main": "px-moment-imports.js",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "pxmoment-timezone": "moment-timezone#~0.5.27"
+  }
 }
