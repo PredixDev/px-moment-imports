@@ -15,7 +15,7 @@ limitations under the License.
 */
 import '../moment/src/moment.js';
 
-import '../moment-timezone/builds/moment-timezone-with-data.min.js';
+import '../moment-timezone/builds/moment-timezone-with-data.js';
 
 if(typeof window.Px === 'undefined') {
   window.Px = {};
