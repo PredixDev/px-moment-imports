@@ -20,7 +20,7 @@ limitations under the License.
 */
 import '../moment/min/moment.min.js';
 
-import '../pxmoment-timezone/builds/moment-timezone-with-data.min.js';
+import '../moment-timezone/builds/moment-timezone-with-data.min.js';
 
 if(typeof window.Px === 'undefined') {
   window.Px = {};
